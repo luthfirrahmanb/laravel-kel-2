@@ -18,11 +18,7 @@ Route::get('about', function()
 {
     return View::make('pages.about');
 });
-Route::get('projects', function()
+Route::get('timeline', function()
 {
-    return View::make('pages.projects');
-});
-Route::get('contact', function()
-{
-    return View::make('pages.contact');
+    return View::make('pages.timeline');
 });

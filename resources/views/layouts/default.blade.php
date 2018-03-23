@@ -2,7 +2,7 @@
 <html>
 
 <body>
-        @include('includes.header')
+    @include('includes.header')
     <div class="container">
 
    
@@ -12,10 +12,6 @@
                 @yield('content')
 
         </div>
-
-        <footer class="row">
-            @include('includes.footer')
-        </footer>
 
     </div>
 </body>
